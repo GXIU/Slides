@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.22)  24 JUL 2019 14:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.22)  25 JUL 2019 13:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -7,7 +7,7 @@ entering extended mode
 (/Users/GeorgeXiu/GitHub/Slides/Template/Temp1/main.tex
 LaTeX2e <2018-12-01>
 (/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamer.cls
-Document Class: beamer 2018/12/02 v3.55 A class for typesetting presentations
+Document Class: beamer 2019/07/23 v3.56 A class for typesetting presentations
 (/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbasemodes.sty (/usr/local/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count80
@@ -18,8 +18,9 @@ Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
  (/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
 \beamer@slideinframe=\count83
 \beamer@minimum=\count84
+\beamer@decode@box=\box28
 )
-\beamer@commentbox=\box28
+\beamer@commentbox=\box29
 \beamer@modecount=\count85
 ) (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
@@ -41,12 +42,12 @@ Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 \beamer@descdefault=\dimen116
 \beamer@descriptionwidth=\dimen117
 \beamer@lastskip=\skip41
-\beamer@areabox=\box29
-\beamer@animcurrent=\box30
-\beamer@animshowbox=\box31
-\beamer@sectionbox=\box32
-\beamer@logobox=\box33
-\beamer@linebox=\box34
+\beamer@areabox=\box30
+\beamer@animcurrent=\box31
+\beamer@animshowbox=\box32
+\beamer@sectionbox=\box33
+\beamer@logobox=\box34
+\beamer@linebox=\box35
 \beamer@sectioncount=\count86
 \beamer@subsubsectionmax=\count87
 \beamer@subsectionmax=\count88
@@ -114,7 +115,7 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \pgfutil@tempdima=\dimen128
 \pgfutil@tempdimb=\dimen129
  (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box35
+\pgfutil@abb=\box36
  (/usr/local/texlive/2019/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 )) (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/pgf.revision.tex)
@@ -181,7 +182,7 @@ Package: pgfcore 2019/07/17 v3.1.4a (3.1.4a)
  (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen140
 \pgfmath@count=\count115
-\pgfmath@box=\box36
+\pgfmath@box=\box37
 \pgfmath@toks=\toks23
 \pgfmath@stack@operand=\toks24
 \pgfmath@stack@operation=\toks25
@@ -213,9 +214,9 @@ File: pgfcorepathusage.code.tex 2019/07/17 v3.1.4a (3.1.4a)
 \pgf@shorten@start@additional=\dimen158
 ) (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2019/07/17 v3.1.4a (3.1.4a)
-\pgfpic=\box37
-\pgf@hbox=\box38
-\pgf@layerbox@main=\box39
+\pgfpic=\box38
+\pgf@hbox=\box39
+\pgf@layerbox@main=\box40
 \pgf@picture@serial@count=\count117
 ) (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2019/07/17 v3.1.4a (3.1.4a)
@@ -243,7 +244,7 @@ File: pgfcoreshade.code.tex 2019/07/17 v3.1.4a (3.1.4a)
 File: pgfcoreimage.code.tex 2019/07/17 v3.1.4a (3.1.4a)
  (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2019/07/17 v3.1.4a (3.1.4a)
-\pgfexternal@startupbox=\box40
+\pgfexternal@startupbox=\box41
 )) (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2019/07/17 v3.1.4a (3.1.4a)
 ) (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
@@ -383,9 +384,9 @@ Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
 \c@subsection=\count135
 \c@subsubsection=\count136
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
-\beamer@framebox=\box41
-\beamer@frametitlebox=\box42
-\beamer@zoombox=\box43
+\beamer@framebox=\box42
+\beamer@frametitlebox=\box43
+\beamer@zoombox=\box44
 \beamer@zoomcount=\count137
 \beamer@zoomframecount=\count138
 \beamer@frametextheight=\dimen169
@@ -400,23 +401,23 @@ Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
 \beamer@verbatimfileout=\write4
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
-\beamer@splitbox=\box44
+\beamer@splitbox=\box45
 \beamer@autobreakcount=\count141
 \beamer@autobreaklastheight=\dimen171
 \beamer@frametitletoks=\toks28
 \beamer@framesubtitletoks=\toks29
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.sty
-\beamer@footins=\box45
+\beamer@footins=\box46
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbasecolor.sty) (/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
-\beamer@frameboxcopy=\box46
+\beamer@frameboxcopy=\box47
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbasetoc.sty) (/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
 \beamer@sbttoks=\toks30
  (/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty (/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
-\bmb@box=\box47
-\bmb@colorbox=\box48
-\bmb@boxshadow=\box49
-\bmb@boxshadowball=\box50
-\bmb@boxshadowballlarge=\box51
+\bmb@box=\box48
+\bmb@colorbox=\box49
+\bmb@boxshadow=\box50
+\bmb@boxshadowball=\box51
+\bmb@boxshadowballlarge=\box52
 \bmb@temp=\dimen172
 \bmb@dima=\dimen173
 \bmb@dimb=\dimen174
@@ -460,8 +461,8 @@ LaTeX Info: Redefining \overline on input line 385.
 LaTeX Info: Redefining \ldots on input line 482.
 LaTeX Info: Redefining \dots on input line 485.
 LaTeX Info: Redefining \cdots on input line 606.
-\Mathstrutbox@=\box52
-\strutbox@=\box53
+\Mathstrutbox@=\box53
+\strutbox@=\box54
 \big@size=\dimen180
 LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
@@ -506,20 +507,20 @@ Package: amsthm 2017/10/31 v2.20.4
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (/Users/GeorgeXiu/GitHub/Slides/Template/Temp1/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -559,7 +560,7 @@ LaTeX Font Info:    ... okay on input line 15.
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count157
 \scratchdimen=\dimen189
-\scratchbox=\box54
+\scratchbox=\box55
 \nofMPsegments=\count158
 \nofMParguments=\count159
 \everyMPshowfont=\toks43
@@ -580,8 +581,8 @@ Package grfext Info: Graphics extension search list:
  (/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box55
-Package hyperref Info: Link coloring OFF on input line 15.
+\AtBeginShipoutBox=\box56
+Package hyperref Info: Link coloring OFF on input line 14.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -589,61 +590,61 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count163
 )
-LaTeX Info: Redefining \ref on input line 15.
-LaTeX Info: Redefining \pageref on input line 15.
-LaTeX Info: Redefining \nameref on input line 15.
+LaTeX Info: Redefining \ref on input line 14.
+LaTeX Info: Redefining \pageref on input line 14.
+LaTeX Info: Redefining \nameref on input line 14.
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 15.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 14.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 15.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 14.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 15.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 15.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 15.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 15.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 14.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 15.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 15.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 15.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 14.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 15.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 15.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 15.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 14.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 15.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 15.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 14.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 15.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 14.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 15.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 15.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 15.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 15.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 15.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 15.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 15.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 14.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 14.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 15.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 14.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 15.
+(Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 14.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 15.
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 14.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -659,15 +660,15 @@ Dictionary: translator-theorem-dictionary, Language: English
 ) (/Users/GeorgeXiu/GitHub/Slides/Template/Temp1/main.nav) [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for U+msa on input line 26.
+LaTeX Font Info:    Try loading font information for U+msa on input line 25.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 26.
+LaTeX Font Info:    Try loading font information for U+msb on input line 25.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input line 26.
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input line 25.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/mathkerncmss.
 ) [2
@@ -716,7 +717,7 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              for symbol `textbraceleft' on input line 2.
 
 
-/Users/GeorgeXiu/GitHub/Slides/Template/Temp1/main.vrb:3: LaTeX Error: \begin{beamer@framepauses} on input line 70 ended by \end{semiverbatim}.
+/Users/GeorgeXiu/GitHub/Slides/Template/Temp1/main.vrb:3: LaTeX Error: \begin{beamer@framepauses} on input line 69 ended by \end{semiverbatim}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -739,22 +740,22 @@ deleted material, e.g., by typing `I$}'.
 
 )
 
-/Users/GeorgeXiu/GitHub/Slides/Template/Temp1/main.tex:70: LaTeX Error: \begin{beamer@frameslide} on input line 70 ended by \end{beamer@framepauses}.
+/Users/GeorgeXiu/GitHub/Slides/Template/Temp1/main.tex:69: LaTeX Error: \begin{beamer@frameslide} on input line 69 ended by \end{beamer@framepauses}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \end{frame}
+l.69 \end{frame}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-/Users/GeorgeXiu/GitHub/Slides/Template/Temp1/main.tex:70: Missing } inserted.
+/Users/GeorgeXiu/GitHub/Slides/Template/Temp1/main.tex:69: Missing } inserted.
 <inserted text> 
                 }
-l.70 \end{frame}
+l.69 \end{frame}
                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -762,18 +763,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/Users/GeorgeXiu/GitHub/Slides/Template/Temp1/main.tex:70: Too many }'s.
+/Users/GeorgeXiu/GitHub/Slides/Template/Temp1/main.tex:69: Too many }'s.
 \endbeamer@frameslide ...amer@framepauses}\egroup 
                                                   \ifx \beamer@frametitle \@...
-l.70 \end{frame}
+l.69 \end{frame}
                 
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
-/Users/GeorgeXiu/GitHub/Slides/Template/Temp1/main.tex:70: Undefined control sequence.
+/Users/GeorgeXiu/GitHub/Slides/Template/Temp1/main.tex:69: Undefined control sequence.
 \endbeamer@frameslide ...box \else \beamer@zoomer 
                                                   \fi \beamer@undolabels \be...
-l.70 \end{frame}
+l.69 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -782,22 +783,22 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-/Users/GeorgeXiu/GitHub/Slides/Template/Temp1/main.tex:70: LaTeX Error: \begin{document} ended by \end{beamer@frameslide}.
+/Users/GeorgeXiu/GitHub/Slides/Template/Temp1/main.tex:69: LaTeX Error: \begin{document} ended by \end{beamer@frameslide}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \end{frame}
+l.69 \end{frame}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-/Users/GeorgeXiu/GitHub/Slides/Template/Temp1/main.tex:70: Extra \endgroup.
+/Users/GeorgeXiu/GitHub/Slides/Template/Temp1/main.tex:69: Extra \endgroup.
 <recently read> \endgroup 
                           
-l.70 \end{frame}
+l.69 \end{frame}
                 
 Things are pretty mixed up, but I think the worst is over.
 
@@ -815,7 +816,7 @@ Things are pretty mixed up, but I think the worst is over.
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\translate ' on input line 109.
+(hyperref)                removing `\translate ' on input line 108.
 
 [9
 
@@ -831,11 +832,11 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 \tf@snm=\write8
 \openout8 = `main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 131.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 130.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 130.
  (/Users/GeorgeXiu/GitHub/Slides/Template/Temp1/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 131.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 131.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 130.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 130.
 
 
 Package rerunfilecheck Warning: File `main.out' has changed.
@@ -850,15 +851,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 17175 strings out of 492609
- 328201 string characters out of 6129048
- 405741 words of memory out of 5000000
- 20686 multiletter control sequences out of 15000+600000
+ 17186 strings out of 492609
+ 328361 string characters out of 6129048
+ 405848 words of memory out of 5000000
+ 20697 multiletter control sequences out of 15000+600000
  11290 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,14n,55p,817b,560s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on /Users/GeorgeXiu/GitHub/Slides/Template/Temp1/main.pdf (10 pages, 124060 bytes).
+Output written on /Users/GeorgeXiu/GitHub/Slides/Template/Temp1/main.pdf (10 pages, 124088 bytes).
 PDF statistics:
  346 PDF objects out of 1000 (max. 8388607)
  312 compressed objects within 4 object streams
