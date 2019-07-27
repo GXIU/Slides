@@ -1,0 +1,101 @@
+% !TEX program = xelatex
+\documentclass{beamer}
+\usetheme{Singapore}
+\usepackage{amsmath}
+\usepackage{ctex}
+\usepackage{url}
+\usepackage{hyperref}
+
+\title{复杂网络中统计规律的检验}
+\author{修格致}
+\institute{IRSGIS\\ Peking University}
+\date{\today}
+
+\begin{document}
+    \maketitle    
+\begin{frame}{Contents}
+    \tableofcontents
+\end{frame}
+\section{统计检验的基础知识}
+\begin{frame}{统计检验}
+    \begin{itemize}
+        \item 什么是统计检验？
+        \item 为什么要做统计检验？
+        \item 统计检验的对象是什么？
+        \item 怎么算完成了统计检验？
+    \end{itemize}
+\end{frame}
+\begin{frame}{统计检验的常见模型}
+    \begin{itemize}
+        \item 假设检验
+        \item 回归分析
+    \end{itemize}
+\end{frame}
+\begin{frame}{复杂网络中的统计规律}
+    \begin{itemize}
+        \item 有什么？
+        \begin{itemize}
+            \item 小世界：三角形的比例[Ref: Nat. Phy. Multiscale Navigation].
+            \item 无标度：幂律的度分布$P(k)\sim k^{-\gamma}$.
+        \end{itemize}
+        \item 有什么问题？
+        \begin{itemize}
+            \item 数据相关性：规模效应、局部特征.
+            \item 统计工具缺陷：幂律数据 v.s. 线性误差.
+            \item \dots\dots
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+\begin{frame}{文献列表}
+    \begin{itemize}
+        \item Testing Statistical Laws in Complex Systems
+    \item Model Selection and Hypothesis Testing for Large-Scale Network Models with Overlapping Groups
+    \item Polya filter
+    \end{itemize}
+\end{frame}
+\section{prl2019, Testing Statistical Laws in Complex Systems}
+\begin{frame}{Testing Statistical Laws in Complex Systems}
+    \begin{itemize}
+        \item 我们该如何正确地检验复杂系统中出现的统计规律？
+    \end{itemize}
+\end{frame}
+\begin{frame}{摘要翻译}
+    复杂系统中有着形形色色的统计规律，比如统计单词出现频率的Zipf定律，地震里氏等级的Gutenberg-Richter律，和复杂网络中可能会出现的无标度分布律等。检验这些定律需要更高的统计观点。本letter中，我们讨论了一个复杂系统所生成数据的一个常见现象：这些统计规律是如何受到观测的相关性影响的。我们首先证明了标准的最大似然估计如何得到“第二类错误”（错误的否定了结论）。然后我们提出了一个保守的方法来检验这些规律，并证明了这种方法找到的参数有更小的拒绝率和更大的置信区间。
+\end{frame}
+\begin{frame}{Trends}
+    \begin{itemize}
+        \item 1999: BA模型被提出. 随后几年无标度分布在各种网络中被发现. 
+        \item 最近五年：很多研究证明，这其中的大部分并不是幂律分布.
+        \begin{itemize}
+            \item 原因：
+            \begin{enumerate}
+                \item 数据集变得更大\\（是否从侧面证明：即使数据不是幂律分布的，采样也是幂律分布的？）.
+                \item 统计方法的提升：从最小二乘拟合变成了最大似然估计. 
+            \end{enumerate}
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+\begin{frame}{建立正规的统计模型}
+    我们检验一个数据集服从何种分布的时候，通常依赖于以下两个假设：
+    \begin{enumerate}
+        \item 观测数据服从某分布$p(x,\vec{\alpha})$, 比如说幂律分布$$p(x;\alpha)=Cx^{-\alpha}$$
+        \item 经验观测$x_1,x_2,\dots,x_N$是独立的, 在这里独立指关于$i$和之前的变量$x_{i-1}$这两个意义.
+    \end{enumerate}
+    其中第一条讲得是统计定律，后一条是关于统计检验的. 比如说对数似然函数的 加和 依赖于这条独立性. Why?
+\end{frame}
+\begin{frame}{问题？}
+    \begin{itemize}
+        \item 复杂网络中的数据相关性与与时间的关系？
+        \item 独立性？
+    \end{itemize}
+    \vspace{1cm}
+    规模效应是否与统计检验要求的独立性有着本质的矛盾？
+    对假设2的背离可能会导致服从假设1的分布被否定。
+\end{frame}
+
+
+
+\begin{frame}{Thank You!}
+    My personal website: \url{gxiu.github.io}
+\end{frame}
+\end{document}
