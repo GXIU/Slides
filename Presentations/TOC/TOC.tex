@@ -1,22 +1,118 @@
-\documentclass[utf8x]{beamer}
-% \usetheme{Singaore}
+\documentclass{beamer}
+\usetheme{Singapore}
+\usepackage{bookmark}
+\usepackage{cite}
+\usepackage{graphicx}
 \usepackage{amsmath}
-\usepackage[UTF8]{ctex}
+\usepackage{hyperref}
 
-\title{The Tragedy of the Commons with Spatial Issues}
+% \bibliographystyle{plain}
+% \bibliography{ref}
+
+\title{Spatial Divergence \& Oscillatory TOCs}
 \author{Gezhi Xiu}
-\institude{IRSGIS \\ Peking University}
 \date{\today}
+\institute{IRSGIS\\Peking U}
 
 \begin{document}
-
+    
 \maketitle
 
+\begin{frame}{Table of Contents (also TOC)}
+    \tableofcontents    
+\end{frame}
 
+\section{About TOC}
 
+\begin{frame}{The tragedy of the commons}
+    \begin{quote}{Garrett Hardin:}
+        \vspace{0.5cm}
+\\        The population problem has no technical solution;\\
+        it requires a fundamental extensioin in morality.
+    \end{quote}
+\end{frame}
 
+\begin{frame}{The tragedy of the commons}
+    A tragedy of the commons (TOC) occurs when individuals acting in their own self-interest deplete commonly held resources, leading to a worse outcome than had they cooperated.
+\end{frame}
 
+\begin{frame}{Keys to TOC}
+    \begin{itemize}
+        \item Macro-scale: 
+        \begin{itemize}
+            \item game
+            \item environment
+        \end{itemize}
+        \item Individual level:
+        \begin{itemize}
+            \item divergence of incentives \& pay-offs
+        \end{itemize}
+    \end{itemize}
+\end{frame}
 
+\begin{frame}{Current frameworks}
+    \begin{itemize}
+        \item Evolutionary dynamics arising from a TOC dilemma can be modeled in terms of changes in the frequencies of individuals from two populations, cooperaters and defecters. 
+        \item  Individuals interact and receive payoffs that depend on their strategy and the strategy of their opponent, where payoff can be modeled by the payoff matrix,$$A = \begin{Bmatrix}
+            R &S \\T &P
+        \end{Bmatrix}$$ representing the system's fitness.
+        \item The outcome of TOC is measured by the frequency of co-operators and defectors $(x, 1-x)$, and the resources.
+        \item This framework is not a zero-sum game.
+    \end{itemize}
+\end{frame}
 
+\begin{frame}{Current frameworks -- equations \& conditions \small{PhysRevLett.122.148102}}
+    \begin{itemize}
+        \item fitness \begin{equation}
+            \dot{x} = x(1-x)[r_c(x,A)-r_D(x,A)]
+        \end{equation}
+        $r_C,r_D$ : context-dependent fitness
+        payoff to cooperators and defectors, respectively.
+        
+        \begin{itemize}
+            \item TOC's occurrence condition: $T>R>P>S$.
+        \end{itemize}
+        \item To address the reproductive case: resource-dependent payoff matrices $$A(n)=A_0(1-n)+A_1(n),$$ where $n\in[0,1].$
 
+    \end{itemize}
+\end{frame}
+
+\section{Individual-based coevolutionary game}
+\begin{frame}{Individual-based coevolutionary game}
+    \begin{itemize}
+        \item Intuitions on the emergent dynamics of social context and resources:
+        \begin{enumerate}
+            \item to assess the influence of noise
+            \item spatially explicit interactions
+        \end{enumerate}
+        \item Schemes:
+        \begin{figure}
+            \centering
+            \includegraphics[height = 3cm]{scheme.PNG}
+            \caption{Transitions of cooperaters and defectors.}
+        \end{figure}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Individual-based coevolutionary game}
+    \begin{itemize}
+        \item Results
+        \begin{itemize}
+            \item Transition rate for \#C and \#D. Furthermore, the limiting frequency of cooperaters $\lim_{N,n_c\rightarrow \infty}\frac{n_C}{N} $
+        \end{itemize}
+        \item Problems: is such frequency convergent or divergent?
+        \begin{itemize}
+            \item Recalling a Cauchy distribution, or a Lorenz oscillator.
+            \item In other words, is the society ending up in tragedy?
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{references}
+    \begin{itemize}
+        \item Spatial Interactions and Oscillatory Tragedies of the Commons
+        Yu-Hui Lin and Joshua S. Weitz
+        Phys. Rev. Lett. 122, 148102 – Published 12 April 2019
+    \end{itemize}
+\end{frame}
 \end{document}
