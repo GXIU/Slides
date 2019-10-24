@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{About TOC}{3}{0}{1}
+\beamer@sectionintoc {2}{Individual-based coevolutionary game}{8}{0}{2}
+\beamer@sectionintoc {3}{Coexistence in cities}{13}{0}{3}
+\beamer@sectionintoc {4}{References}{16}{0}{4}
