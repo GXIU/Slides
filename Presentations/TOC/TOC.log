@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.7.30)  31 JUL 2019 19:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.7.30)  1 AUG 2019 13:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -731,9 +731,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (d:/GitHub/Slides/Presentations/TOC/TOC.nav) [1{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-]
-No file TOC.toc.
-[2
+] (d:/GitHub/Slides/Presentations/TOC/TOC.toc) [2
 
 ] [3
 
@@ -758,7 +756,7 @@ File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/mat
 ] [7
 
 ]
-<scheme.PNG, id=367, 392.06474pt x 138.5175pt>
+<scheme.PNG, id=371, 392.06474pt x 138.5175pt>
 File: scheme.PNG Graphic file (type png)
 <use scheme.PNG>
 Package pdftex.def Info: scheme.PNG  used on input line 100.
@@ -768,7 +766,7 @@ Package pdftex.def Info: scheme.PNG  used on input line 100.
  <d:/GitHub/Slides/Presentations/TOC/scheme.PNG>] [9
 
 ]
-<Coevolutionary.png, id=459, 1133.23375pt x 637.38126pt>
+<Coevolutionary.png, id=463, 1133.23375pt x 637.38126pt>
 File: Coevolutionary.png Graphic file (type png)
 <use Coevolutionary.png>
 Package pdftex.def Info: Coevolutionary.png  used on input line 121.
@@ -776,7 +774,7 @@ Package pdftex.def Info: Coevolutionary.png  used on input line 121.
  [10
 
  <d:/GitHub/Slides/Presentations/TOC/Coevolutionary.png>]
-<phase.png, id=505, 584.1825pt x 497.86pt>
+<phase.png, id=509, 584.1825pt x 497.86pt>
 File: phase.png Graphic file (type png)
 <use phase.png>
 Package pdftex.def Info: phase.png  used on input line 128.
@@ -784,7 +782,7 @@ Package pdftex.def Info: phase.png  used on input line 128.
  [11
 
  <d:/GitHub/Slides/Presentations/TOC/phase.png>]
-<D_n.png, id=550, 335.2525pt x 553.06625pt>
+<D_n.png, id=554, 335.2525pt x 553.06625pt>
 File: D_n.png Graphic file (type png)
 <use D_n.png>
 Package pdftex.def Info: D_n.png  used on input line 135.
@@ -799,9 +797,7 @@ Package pdftex.def Info: D_n.png  used on input line 135.
 
 ] [16
 
-]
-No file TOC.bbl.
-[17
+] (d:/GitHub/Slides/Presentations/TOC/TOC.bbl) [17
 
 ]
 \tf@nav=\write5
@@ -820,18 +816,18 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 193.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 193.
  ) 
 Here is how much of TeX's memory you used:
- 18311 strings out of 492609
- 343485 string characters out of 6132818
- 437216 words of memory out of 5000000
- 21755 multiletter control sequences out of 15000+600000
+ 18324 strings out of 492609
+ 343912 string characters out of 6132818
+ 437260 words of memory out of 5000000
+ 21764 multiletter control sequences out of 15000+600000
  24749 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,19n,56p,825b,793s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,19n,56p,825b,794s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on d:/GitHub/Slides/Presentations/TOC/TOC.pdf (17 pages, 1208678 bytes).
+Output written on d:/GitHub/Slides/Presentations/TOC/TOC.pdf (17 pages, 1208979 bytes).
 PDF statistics:
- 875 PDF objects out of 1000 (max. 8388607)
- 803 compressed objects within 9 object streams
+ 879 PDF objects out of 1000 (max. 8388607)
+ 807 compressed objects within 9 object streams
  39 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

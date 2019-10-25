@@ -1,0 +1,118 @@
+\documentclass{beamer}
+\usepackage[utf8]{ctex}
+\usetheme{Singapore}
+% \usetheme[euler=false,titlepagebg=B]{ut}
+% \usetheme[titlepage=C,debug]{ut}
+% \usetheme[titlepage=A]{ut}
+
+
+\title[Hierarchical Mobility]{Hierarchical organization of urban mobility and its connection with city livability}
+% \subtitle[Short subtitle]{I am not using any subtitles}
+\author[G. Xiu]{Gezhi Xiu} %  
+\institute[IRSGIS PKU]{Complexity Research Group,\\Peking University}
+\date[\today]{\today}
+
+\begin{document}
+
+
+\maketitle
+\begin{frame} \frametitle{Abstract}
+
+\begin{itemize}
+\item extract global Intra-urban trips
+\item develop a metric
+  \begin{itemize}
+    \item classify cities
+    \item establish a connection between mobility organization and key urban indicators
+  \end{itemize}
+\end{itemize}
+Cities with strong hierarchical mobility structure display an extensive use of public transport, higher levels of walkability, lower pollutant emissions per capita and better health indicators.
+\end{frame}
+
+\begin{frame}[fragile] \frametitle{Background}
+\begin{itemize}
+  \item the increase of population,along with the congestion induced by the concentration ofactivity, drives cities from a monocentric to a polycentricconfiguration
+  \item urban sprawl
+  \begin{itemize}
+    \item compact
+    \item centers far apart
+  \end{itemize}
+  \item indicators of urban organization
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile] \frametitle{methods}
+\begin{itemize}
+\item ML segment a raw GPS trace intosemantic trips
+\item The tripflow data can be interpreted as weighted networksformed by S2 cells as nodes, andflows as link weights.
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}[fragile] \frametitle{\textbackslash utbeamerset}}
+\\utbeamerset\{optiona=valuea, optionb=valueb, optionc=valuec\}
+\end{semiverbatim}
+}
+\end{frame}
+
+\begin{frame}[fragile] \frametitle{Layout of the Title Page}
+\begin{itemize}
+\item The title page consists of three boxes, A, B and C. Box A contains the title and subtitle. Box B contains the author names, affiliations and date. Box C contains the titlegraphic. The boxes are positioned absolutely on the page. The position and the size of the boxes can be adjusted with the \verb!\utbeamerset! command. Box A has top left coordinate (\verb!tpboxax!,\verb!tpboxay!), width \verb!tpboxawd! and height \verb!tpboxaht!. All sizes and positions are in mm.
+
+\item Overview of all options that can be used in \verb!\utbeamerset!:
+tpboxax, tpboxay, tpboxawd, tpboxaht, tpboxbx, tpboxby, tpboxbwd, tpboxbht, tpboxcx, tpboxcy, tpboxcwd, tpboxcht.
+
+\item By default the boxes themselves are not visible. By using the option \verb!debug (\usetheme[debug]{ut})! the boxes are visible, faciliting the layout.
+\end{itemize}
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%
+%%%%%
+%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame} \frametitle{Fonts}
+Use xelatex to get Arial fonts.
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%
+%%%%%
+%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame} \frametitle{Feedback}
+Feedback is greatly appreciated. \\
+
+Jasper Goseling (j.goseling@utwente.nl)
+\end{frame}
+
+\appendix
+
+% \begin{chapterframe}
+% \Large Introduction to the Next Part
+% \end{chapterframe}
+
+\begin{frame} \frametitle{A Normal Frame}
+A list
+\begin{itemize}
+\item First item
+\item Second item
+\end{itemize}
+
+\begin{block}{A Block}
+Content of the block.
+\end{block}
+\end{frame}
+
+\begin{frame} \frametitle{Testing the Math Font}
+\begin{equation*}
+\alpha, \beta, \gamma, 1, 2, 3, \int_a^b f(x)dx, \sum_{i=1}^N, \mathbb{E}[X].
+\end{equation*}
+\end{frame}
+\end{document}
+

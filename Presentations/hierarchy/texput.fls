@@ -1,0 +1,5 @@
+PWD d:/GitHub/Slides/Presentations/³ÇÊÐÖÐmobilityµÄ²ã¼¶½á¹¹
+INPUT c:/texlive/2019/texmf.cnf
+INPUT c:/texlive/2019/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt
+OUTPUT d:/GitHub/Slides/Presentations/åŸŽå¸‚ä¸­mobilityçš„å±‚çº§ç»“æž„/texput.log
