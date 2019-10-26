@@ -132,37 +132,126 @@ Some up-to-date models are really fascinating.
 \section{Spatial Yule Models}
 
 \begin{frame}{My Current Work: Spatial Yule Model}
-  
+  How can we address more aspects of urban studies within a simpler model?
 \end{frame}
 
 \begin{frame}{Observations}
   \begin{figure}
     \includegraphics[width=0.48\linewidth]{pics/city_emerge.pdf}
     \includegraphics[width=0.48\linewidth]{pics/metapop_adding.pdf}
-    \caption{We take 2,500 as the study unit and get a) The emerging speed of cities in the United States, and b) the counts that 2,500 population are added to an existing city. Both slopes are around 0.04, p<0.0001.}
+    \caption{We take 2,500 as the study unit and get a) The emerging speed of cities in the United States, and b) the counts that 2,500 population are added to an existing city. Both slopes are around 0.04, $p<0.0001$.}
   \end{figure}
 \end{frame}
 
 \begin{frame}{Population based spreading}
   \begin{figure}
-    \includegraphics[width = 0.4\linewidth]{pics/ntl/ntl_4.png}
-    \includegraphics[width = 0.4\linewidth]{pics/ntl/ntl_3.png}
-    \includegraphics[width = 0.4\linewidth]{pics/ntl/ntl_2.png}
-    \includegraphics[width = 0.4\linewidth]{pics/ntl/ntl_1.png}
+    \includegraphics[width = 0.34\linewidth]{pics/ntl/ntl_4.png}
+    \includegraphics[width = 0.34\linewidth]{pics/ntl/ntl_3.png}
+    \includegraphics[width = 0.34\linewidth]{pics/ntl/ntl_2.png}
+    \includegraphics[width = 0.34\linewidth]{pics/ntl/ntl_1.png}
   \end{figure}
 \end{frame}
 
 \begin{frame}{Population based spreading}
   \begin{figure}
-    \includegraphics[width = 0.4\linewidth]{pics/ntl/jzh/jzh4.png}
-    \includegraphics[width = 0.4\linewidth]{pics/ntl/jzh/jzh3.png}
-    \includegraphics[width = 0.4\linewidth]{pics/ntl/jzh/jzh2.png}
-    \includegraphics[width = 0.4\linewidth]{pics/ntl/jzh/jzh1.png}
+    \includegraphics[width = 0.34\linewidth]{pics/ntl/jzh/jzh4.png}
+    \includegraphics[width = 0.34\linewidth]{pics/ntl/jzh/jzh3.png}
+    \includegraphics[width = 0.34\linewidth]{pics/ntl/jzh/jzh2.png}
+    \includegraphics[width = 0.34\linewidth]{pics/ntl/jzh/jzh1.png}
   \end{figure}
 \end{frame}
 
+\subsection{Formation Philosophy}
+\begin{frame}{Formation Philosophy}
+  \begin{itemize}
+    \item Scaling of inner- intra-city (area, population, infrastructure)
+    \begin{itemize}
+      \item Gradient descent to the sum of two-dimensional normal distributions for a optimal locating problem lead to some scaling behavior.
+    \end{itemize}
+    \item Interacting cities lead to Zipf's law and fractality of urban boundary. 
+    \item Asymptotic behaviors (standard cause of scaling) is far from reality.
+  \end{itemize}
+\end{frame}
 
+\begin{frame}{Rules}
+  The background is on a $L\times L$ grid space. The growing mechanism states as follows:
+  \begin{enumerate}
+    \item Growth rate per capita $\beta_2$, and the growth rate for \# of cities $\beta_1$. 
+    \begin{itemize}
+      \item ignoring the correspondence to real-life time scale, the actual effective parameter the relative $\beta:=\beta_2/\beta_1$.
+    \end{itemize}
+    \item The distance a ball lands a meta-population nearby as a constant, $r$, towards a random direction $\theta$. 
+    \item The \emph{productive} balls are limited, with no more than $N^*$. 
+  \end{enumerate}
+\end{frame}
 
+\begin{frame}{Points}
+  \begin{enumerate}
+    \item possessiveness
+    \item homogeneity
+    \item cut-off
+    \begin{itemize}
+    \item comparing to logistic?
+    \end{itemize}
+  \end{enumerate}
+  \vspace{1cm}
+  \begin{itemize}
+    \item The settings provide a border line between free growth (Scaling laws) and constrained growth (vicissitude phenomena).
+  \end{itemize}
+  
+\end{frame}
 
+\subsection{Results}
+\begin{frame}{Results}
+  \begin{itemize}
+    \item the Clark's law of urban population density
+    \item the Zipf's law of city population sizes
+    \item vicissitude
+    \item fractality
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{the Clark's law}
+  \begin{figure}
+    \includegraphics[width = 0.8\linewidth]{pics/clark.pdf}
+    \caption{The popualtion density as a function of distance from urban center.}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{the Zipf's law}
+  \begin{figure}
+    \includegraphics[width = 0.8\linewidth]{pics/zipf.pdf}
+  \end{figure}
+  $$P(n)\sim n^{-2}$$
+\end{frame}
+
+\begin{frame}{the Zipf's law}
+  \begin{figure}
+    \includegraphics[width = 0.8\linewidth]{pics/pop-area.png}
+    \caption{Population versus area}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{vicissitude}
+  \begin{itemize}
+    \item Blockwise
+  \begin{align}\rho_{threshold} = k\beta_1/(2\beta_2)+N^*/2\end{align}
+    \item Citywise
+    \begin{figure}
+      \includegraphics[width = 0.8\linewidth]{pics/step_number.png}
+    \end{figure}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{fractality}
+  \begin{figure}
+    \includegraphics[width = 0.7\linewidth]{pics/fractal_41_256.pdf}
+    \caption{Fractality is driven by the probabilistic competition for edging space.}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Topics about \emph{what is a city}?}
+  Owuor Otieno, Mark . (2017, October 23). What is the Difference Between a City and a Town? Retrieved from https://www.worldatlas.com/articles/what-is-the-difference-between-a-city-and-a-town.html
+\end{frame}
 
 \end{document}
