@@ -22,7 +22,7 @@
 \section{Overview}
 \begin{frame}{Overview}
   \begin{itemize}
-    \item the Zipf's law and its formation
+    \item Zipf's law and its formation
     \begin{itemize}
       \item Zipf's law without fine-tuning: static mesoscopic
       \item stationary distribution of dynamical processes for the sizes of groups of individuals
@@ -35,11 +35,22 @@
   \end{itemize}
 \end{frame}
 
-\section{Existing Models}
+\section{Existing Models in explaining urban phenomena}
 
 \subsection{Fractal Cities}
 
 \begin{frame}{Fractal Cities}
+
+  \begin{figure}
+    \includegraphics[width = 0.3\linewidth]{pics/fractalcity_1.png}
+    \includegraphics[width = 0.3\linewidth]{pics/fractalcity_2.png}
+    \includegraphics[width = 0.3\linewidth]{pics/fractalcity_3.png}
+    \caption{Aspects of fractal cities}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Fractal Cities}
+  % 城市分型的例子与图片
   \begin{itemize}
     \item M. Batty and P. Longley, Fractal Cities: A Geometry of Form
     and Function (Academic, San Diego/London, 1994).
@@ -49,10 +60,11 @@
   \end{itemize}
 \end{frame}
 
-\subsection{the Zipf's law}
+\subsection{Zipf's law}
 \begin{frame}{the Zipf's law}
   The group size distribution.
   \begin{itemize}
+    \item the rank distribution of words in large corpora
     \item the number of employees in firms
     \item the distribution of family names
     \item the distribution of city sizes
@@ -66,7 +78,7 @@
   
 \end{frame}
 
-\begin{frame}{Models that lead to the Zipf's law}
+\begin{frame}{Models that lead to Zipf's law}
 Some up-to-date models are really fascinating.
   \begin{itemize}
     \item Models with latent variables can lead to Zipf's law without fine-tuning by mixing together narrow distributions with very different means.(PRL 113, 068102 (2014))
@@ -183,6 +195,8 @@ Some up-to-date models are really fascinating.
     \item The distance a ball lands a meta-population nearby as a constant, $r$, towards a random direction $\theta$. 
     \item The \emph{productive} balls are limited, with no more than $N^*$. 
   \end{enumerate}
+  \vspace{0.5cm}
+  In all, this model relies on three parameters, the relative speed for city generation $\beta$, the diffusion rate $r$, and the size of the memory kernel $N^*$.
 \end{frame}
 
 \begin{frame}{Points}
@@ -211,21 +225,22 @@ Some up-to-date models are really fascinating.
   \end{itemize}
 \end{frame}
 
-\begin{frame}{the Clark's law}
+\begin{frame}{Clark's law}
   \begin{figure}
-    \includegraphics[width = 0.8\linewidth]{pics/clark.pdf}
+    \includegraphics[width = 0.8\linewidth]{pics/clark.png}
     \caption{The popualtion density as a function of distance from urban center.}
   \end{figure}
 \end{frame}
 
-\begin{frame}{the Zipf's law}
+\begin{frame}{Zipf's law }
   \begin{figure}
     \includegraphics[width = 0.8\linewidth]{pics/zipf.pdf}
+    \caption{Simulated result for $\beta$ = 1. When $\beta\approx 1$, the population distribution across cities is close to the case in reality, $P(n)\sim n^{-2}$.}
   \end{figure}
-  $$P(n)\sim n^{-2}$$
+
 \end{frame}
 
-\begin{frame}{the Zipf's law}
+\begin{frame}{Scalings for area sizes}
   \begin{figure}
     \includegraphics[width = 0.8\linewidth]{pics/pop-area.png}
     \caption{Population versus area}

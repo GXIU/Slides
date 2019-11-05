@@ -320,6 +320,15 @@ INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi9.tfm
+INPUT d:/GitHub/Slides/Presentations/Growth_models/pics/fractalcity_1.png
+INPUT d:/GitHub/Slides/Presentations/Growth_models/pics/fractalcity_1.png
+INPUT d:/GitHub/Slides/Presentations/Growth_models/pics/fractalcity_1.png
+INPUT d:/GitHub/Slides/Presentations/Growth_models/pics/fractalcity_2.png
+INPUT d:/GitHub/Slides/Presentations/Growth_models/pics/fractalcity_2.png
+INPUT d:/GitHub/Slides/Presentations/Growth_models/pics/fractalcity_2.png
+INPUT d:/GitHub/Slides/Presentations/Growth_models/pics/fractalcity_3.png
+INPUT d:/GitHub/Slides/Presentations/Growth_models/pics/fractalcity_3.png
+INPUT d:/GitHub/Slides/Presentations/Growth_models/pics/fractalcity_3.png
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmssi10.tfm
 INPUT d:/GitHub/Slides/Presentations/Growth_models/pics/taylor's.png
 INPUT d:/GitHub/Slides/Presentations/Growth_models/pics/taylor's.png
@@ -355,9 +364,9 @@ INPUT d:/GitHub/Slides/Presentations/Growth_models/pics/ntl/jzh/jzh1.png
 INPUT d:/GitHub/Slides/Presentations/Growth_models/pics/ntl/jzh/jzh1.png
 INPUT d:/GitHub/Slides/Presentations/Growth_models/pics/ntl/jzh/jzh1.png
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmssi10.tfm
-INPUT d:/GitHub/Slides/Presentations/Growth_models/pics/clark.pdf
-INPUT d:/GitHub/Slides/Presentations/Growth_models/pics/clark.pdf
-INPUT d:/GitHub/Slides/Presentations/Growth_models/pics/clark.pdf
+INPUT d:/GitHub/Slides/Presentations/Growth_models/pics/clark.png
+INPUT d:/GitHub/Slides/Presentations/Growth_models/pics/clark.png
+INPUT d:/GitHub/Slides/Presentations/Growth_models/pics/clark.png
 INPUT d:/GitHub/Slides/Presentations/Growth_models/pics/zipf.pdf
 INPUT d:/GitHub/Slides/Presentations/Growth_models/pics/zipf.pdf
 INPUT d:/GitHub/Slides/Presentations/Growth_models/pics/zipf.pdf
@@ -387,5 +396,6 @@ INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
