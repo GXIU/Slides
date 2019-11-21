@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.7.30)  5 NOV 2019 21:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.7.30)  21 NOV 2019 17:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**d:/GitHub/Slides/Presentations/Growth_models/growth_models.tex
+**d:/GitHub/Slides/Presentations/Growth_models/growth_models
 (d:/GitHub/Slides/Presentations/Growth_models/growth_models.tex
 LaTeX2e <2018-12-01>
 (c:/texlive/2019/texmf-dist/tex/latex/beamer/beamer.cls
@@ -507,7 +507,7 @@ Package: amsthm 2017/10/31 v2.20.4
 ) (c:/texlive/2019/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (c:/texlive/2019/texmf-dist/tex/latex/beamer/beamerthemeGoettingen.sty (c:/texlive/2019/texmf-dist/tex/latex/beamer/beamerouterthemesidebar.sty
 \beamer@sidebarwidth=\dimen189
 \beamer@headheight=\dimen190
-)) (d:/GitHub/Slides/Presentations/Growth_models/growth_models.aux)
+)) (./growth_models.aux)
 \openout1 = `growth_models.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -596,7 +596,7 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 15.
 LaTeX Info: Redefining \pageref on input line 15.
 LaTeX Info: Redefining \nameref on input line 15.
- (d:/GitHub/Slides/Presentations/Growth_models/growth_models.out) (d:/GitHub/Slides/Presentations/Growth_models/growth_models.out)
+ (./growth_models.out) (./growth_models.out)
 \@outlinefile=\write5
 \openout5 = `growth_models.out'.
 
@@ -661,9 +661,9 @@ Dictionary: translator-months-dictionary, Language: English
 Dictionary: translator-numbers-dictionary, Language: English 
 ) (c:/texlive/2019/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (d:/GitHub/Slides/Presentations/Growth_models/growth_models.nav) [1{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+) (./growth_models.nav) [1{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-] (d:/GitHub/Slides/Presentations/Growth_models/growth_models.toc) [2
+] (./growth_models.toc) [2
 
 ]
 LaTeX Font Info:    Try loading font information for U+msa on input line 36.
@@ -697,7 +697,7 @@ Package pdftex.def Info: pics/fractalcity_3.png  used on input line 50.
 (pdftex.def)             Requested size: 83.65198pt x 71.18927pt.
  [4
 
- <d:/GitHub/Slides/Presentations/Growth_models/pics/fractalcity_1.png> <d:/GitHub/Slides/Presentations/Growth_models/pics/fractalcity_2.png> <d:/GitHub/Slides/Presentations/Growth_models/pics/fractalcity_3.png>] [5
+ <./pics/fractalcity_1.png> <./pics/fractalcity_2.png> <./pics/fractalcity_3.png>] [5
 
 ] [6
 
@@ -717,7 +717,7 @@ Package pdftex.def Info: pics/taylor's.png  used on input line 141.
 (pdftex.def)             Requested size: 139.41856pt x 63.26721pt.
  [11
 
- <d:/GitHub/Slides/Presentations/Growth_models/pics/taylor's.png>] [12
+ <./pics/taylor's.png>] [12
 
 ]
 <pics/city_emerge.pdf, id=511, 433.62pt x 289.08pt>
@@ -732,9 +732,9 @@ Package pdftex.def Info: pics/metapop_adding.pdf  used on input line 156.
 (pdftex.def)             Requested size: 133.84062pt x 89.2257pt.
  [13
 
- <d:/GitHub/Slides/Presentations/Growth_models/pics/city_emerge.pdf> <d:/GitHub/Slides/Presentations/Growth_models/pics/metapop_adding.pdf
+ <./pics/city_emerge.pdf> <./pics/metapop_adding.pdf
 
-pdfTeX warning: pdflatex.exe (file d:/GitHub/Slides/Presentations/Growth_models/pics/metapop_adding.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./pics/metapop_adding.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 <pics/ntl/ntl_4.png, id=619, 219.82124pt x 252.945pt>
 File: pics/ntl/ntl_4.png Graphic file (type png)
@@ -758,7 +758,7 @@ Package pdftex.def Info: pics/ntl/ntl_1.png  used on input line 165.
 (pdftex.def)             Requested size: 94.80359pt x 109.08844pt.
  [14
 
- <d:/GitHub/Slides/Presentations/Growth_models/pics/ntl/ntl_4.png> <d:/GitHub/Slides/Presentations/Growth_models/pics/ntl/ntl_3.png> <d:/GitHub/Slides/Presentations/Growth_models/pics/ntl/ntl_2.png> <d:/GitHub/Slides/Presentations/Growth_models/pics/ntl/ntl_1.png>]
+ <./pics/ntl/ntl_4.png> <./pics/ntl/ntl_3.png> <./pics/ntl/ntl_2.png> <./pics/ntl/ntl_1.png>]
 <pics/ntl/jzh/jzh4.png, id=662, 219.82124pt x 252.945pt>
 File: pics/ntl/jzh/jzh4.png Graphic file (type png)
 <use pics/ntl/jzh/jzh4.png>
@@ -781,7 +781,7 @@ Package pdftex.def Info: pics/ntl/jzh/jzh1.png  used on input line 174.
 (pdftex.def)             Requested size: 94.80359pt x 109.08844pt.
  [15
 
- <d:/GitHub/Slides/Presentations/Growth_models/pics/ntl/jzh/jzh4.png> <d:/GitHub/Slides/Presentations/Growth_models/pics/ntl/jzh/jzh3.png> <d:/GitHub/Slides/Presentations/Growth_models/pics/ntl/jzh/jzh2.png> <d:/GitHub/Slides/Presentations/Growth_models/pics/ntl/jzh/jzh1.png>] [16
+ <./pics/ntl/jzh/jzh4.png> <./pics/ntl/jzh/jzh3.png> <./pics/ntl/jzh/jzh2.png> <./pics/ntl/jzh/jzh1.png>] [16
 
 ] [17
 
@@ -797,7 +797,7 @@ Package pdftex.def Info: pics/clark.png  used on input line 233.
 (pdftex.def)             Requested size: 223.07054pt x 148.57384pt.
  [20
 
- <d:/GitHub/Slides/Presentations/Growth_models/pics/clark.png>]
+ <./pics/clark.png>]
 <pics/zipf.pdf, id=883, 433.62pt x 289.08pt>
 File: pics/zipf.pdf Graphic file (type pdf)
 <use pics/zipf.pdf>
@@ -805,7 +805,7 @@ Package pdftex.def Info: pics/zipf.pdf  used on input line 241.
 (pdftex.def)             Requested size: 223.07054pt x 148.71686pt.
  [21
 
- <d:/GitHub/Slides/Presentations/Growth_models/pics/zipf.pdf>]
+ <./pics/zipf.pdf>]
 <pics/pop-area.png, id=932, 400.49625pt x 277.035pt>
 File: pics/pop-area.png Graphic file (type png)
 <use pics/pop-area.png>
@@ -813,7 +813,7 @@ Package pdftex.def Info: pics/pop-area.png  used on input line 248.
 (pdftex.def)             Requested size: 223.07054pt x 154.30577pt.
  [22
 
- <d:/GitHub/Slides/Presentations/Growth_models/pics/pop-area.png>]
+ <./pics/pop-area.png>]
 <pics/step_number.png, id=970, 403.5075pt x 272.01625pt>
 File: pics/step_number.png Graphic file (type png)
 <use pics/step_number.png>
@@ -821,7 +821,7 @@ Package pdftex.def Info: pics/step_number.png  used on input line 259.
 (pdftex.def)             Requested size: 205.55043pt x 138.56873pt.
  [23
 
- <d:/GitHub/Slides/Presentations/Growth_models/pics/step_number.png>]
+ <./pics/step_number.png>]
 <pics/fractal_41_256.pdf, id=1008, 289.08pt x 289.08pt>
 File: pics/fractal_41_256.pdf Graphic file (type pdf)
 <use pics/fractal_41_256.pdf>
@@ -829,7 +829,7 @@ Package pdftex.def Info: pics/fractal_41_256.pdf  used on input line 266.
 (pdftex.def)             Requested size: 195.18513pt x 195.18233pt.
  [24
 
- <d:/GitHub/Slides/Presentations/Growth_models/pics/fractal_41_256.pdf>] [25
+ <./pics/fractal_41_256.pdf>] [25
 
 ]
 \tf@nav=\write6
@@ -843,7 +843,7 @@ Package pdftex.def Info: pics/fractal_41_256.pdf  used on input line 266.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 272.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 272.
- (d:/GitHub/Slides/Presentations/Growth_models/growth_models.aux)
+ (./growth_models.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 272.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 272.
 Package rerunfilecheck Info: File `growth_models.out' has not changed.
@@ -851,14 +851,14 @@ Package rerunfilecheck Info: File `growth_models.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  17602 strings out of 492609
- 336465 string characters out of 6132818
+ 335847 string characters out of 6132818
  410872 words of memory out of 5000000
  21044 multiletter control sequences out of 15000+600000
  17208 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,15n,62p,846b,565s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,15n,62p,842b,565s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on d:/GitHub/Slides/Presentations/Growth_models/growth_models.pdf (25 pages, 21674503 bytes).
+Output written on growth_models.pdf (25 pages, 21674331 bytes).
 PDF statistics:
  1142 PDF objects out of 1200 (max. 8388607)
  988 compressed objects within 10 object streams
