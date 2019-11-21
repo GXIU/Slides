@@ -1,9 +1,0 @@
-\beamer@sectionintoc {1}{Overview}{3}{0}{1}
-\beamer@sectionintoc {2}{Existing Models}{4}{0}{2}
-\beamer@subsectionintoc {2}{1}{Fractal Cities}{4}{0}{2}
-\beamer@subsectionintoc {2}{2}{Zipf's law}{5}{0}{2}
-\beamer@subsectionintoc {2}{3}{Radical Decay}{9}{0}{2}
-\beamer@subsectionintoc {2}{4}{Taylor's law}{10}{0}{2}
-\beamer@sectionintoc {3}{Spatial Yule Models}{11}{0}{3}
-\beamer@subsectionintoc {3}{1}{Formation Philosophy}{15}{0}{3}
-\beamer@subsectionintoc {3}{2}{Results}{18}{0}{3}
