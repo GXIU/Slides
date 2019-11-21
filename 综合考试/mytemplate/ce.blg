@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: ce.aux
+The style file: plain.bst
+Database file #1: references.bib
+You're missing a field name---line 1 of file references.bib
+ : @article{Newman05powerlaws,
+ :                            ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in Willis
+Warning--empty year in Willis
+Warning--empty journal in GallottiA
+Warning--empty year in GallottiA
+Warning--empty journal in Giometto7755
+Warning--empty journal in IacopiniSimplicial
+Warning--empty year in IacopiniSimplicial
+Warning--empty journal in Keuschnigg13759
+Warning--empty journal in MakseModelling
+Warning--empty year in MakseModelling
+You've used 20 entries,
+            2118 wiz_defined-function locations,
+            642 strings with 7350 characters,
+and the built_in function-call counts, 6496 in all, are:
+= -- 616
+> -- 324
+< -- 0
++ -- 130
+- -- 108
+* -- 518
+:= -- 1125
+add.period$ -- 57
+call.type$ -- 20
+change.case$ -- 114
+chr.to.int$ -- 0
+cite$ -- 30
+duplicate$ -- 216
+empty$ -- 488
+format.name$ -- 108
+if$ -- 1295
+int.to.chr$ -- 0
+int.to.str$ -- 20
+missing$ -- 20
+newline$ -- 100
+num.names$ -- 40
+pop$ -- 102
+preamble$ -- 1
+purify$ -- 94
+quote$ -- 0
+skip$ -- 138
+stack$ -- 0
+substring$ -- 440
+swap$ -- 14
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 80
+warning$ -- 10
+while$ -- 61
+width$ -- 22
+write$ -- 205
+(There was 1 error message)

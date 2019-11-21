@@ -1,0 +1,18 @@
+\contentsline {chapter}{\numberline {第一章\hspace {.3em}}绪论}{5}% 
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}空间生长模型}{7}% 
+\contentsline {section}{\numberline {2.1}城市的规模}{8}% 
+\contentsline {subsection}{\numberline {2.1.1}基于偶发过程的城市局部交互标度律模型}{9}% 
+\contentsline {subsection}{\numberline {2.1.2}随机几何模型}{10}% 
+\contentsline {subsection}{\numberline {2.1.3}基于距离衰减的长程模型}{10}% 
+\contentsline {section}{\numberline {2.2}城市活动的空间分布}{11}% 
+\contentsline {subsection}{\numberline {2.2.1}城市内部的标度律}{11}% 
+\contentsline {subsection}{\numberline {2.2.2}城市空间分隔的物理背景}{11}% 
+\contentsline {section}{\numberline {2.3}城市交通系统的性质}{12}% 
+\contentsline {section}{\numberline {2.4}跨尺度模型}{13}% 
+\contentsline {subsection}{\numberline {2.4.1}生长模型的记忆效应}{13}% 
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}空间生态系统模型}{15}% 
+\contentsline {section}{\numberline {3.1}人群交互模型}{17}% 
+\contentsline {section}{\numberline {3.2}局部交互背景下的注意力流动模型}{17}% 
+\contentsline {subsection}{\numberline {3.2.1}社群结构的新理解}{17}% 
+\contentsline {section}{\numberline {3.3}社会网络的层级结构}{18}% 
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}总结与展望}{19}% 

@@ -1,0 +1,88 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: ce.aux
+The style file: plain.bst
+Database file #1: references.bib
+Repeated entry---line 2309 of file references.bib
+ : @article{nowak1992evolutionary
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2997 of file references.bib
+ : @article{durrett2009coexistence
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3017 of file references.bib
+ : @article{gao2016universal
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3151 of file references.bib
+ : @article{banerjee2015competitive
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3731 of file references.bib
+ : @article{song2010modelling
+ :                           ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in Bascompte9383
+Warning--empty year in BerryThe
+Warning--empty journal in Willis
+Warning--empty year in Willis
+Warning--empty publisher in colonna2002proposal
+Warning--empty journal in Depersin2317
+Warning--empty journal in Durrett14036
+Warning--empty journal in GallottiA
+Warning--empty year in GallottiA
+Warning--empty journal in Giometto7755
+Warning--empty journal in GulyNavigable
+Warning--empty year in GulyNavigable
+Warning--empty journal in Keuschnigg13759
+Warning--empty year in LiSimple
+Warning--empty journal in MakseModelling
+Warning--empty year in MakseModelling
+Warning--empty journal in molas2017field
+Warning--empty journal in Volchenkov2011Random
+Warning--empty journal in Weiner17874
+Warning--empty year in ZhangScaling
+Warning--empty journal in Zhang8673
+You've used 107 entries,
+            2118 wiz_defined-function locations,
+            1156 strings with 21120 characters,
+and the built_in function-call counts, 35232 in all, are:
+= -- 3399
+> -- 1748
+< -- 4
++ -- 705
+- -- 580
+* -- 2767
+:= -- 6045
+add.period$ -- 320
+call.type$ -- 107
+change.case$ -- 606
+chr.to.int$ -- 0
+cite$ -- 128
+duplicate$ -- 1191
+empty$ -- 2664
+format.name$ -- 580
+if$ -- 7089
+int.to.chr$ -- 0
+int.to.str$ -- 107
+missing$ -- 112
+newline$ -- 535
+num.names$ -- 214
+pop$ -- 498
+preamble$ -- 1
+purify$ -- 504
+quote$ -- 0
+skip$ -- 800
+stack$ -- 0
+substring$ -- 2380
+swap$ -- 114
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 418
+warning$ -- 21
+while$ -- 338
+width$ -- 110
+write$ -- 1143
+(There were 5 error messages)

@@ -1,0 +1,43 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {第一章\hspace {.3em}}绪论}{1}{chapter.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}城市间尺度：Zipf律、城市聚集体、城市涌现与变迁}{5}{chapter.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}城市间标度律}{6}{section.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}城市聚集体的模型与偶发事件}{8}{section.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}考虑人口密度的空间生长模型}{11}{section.2.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}生长模型的记忆效应、城市的兴衰变迁}{13}{section.2.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}城市内部复杂现象的物理解释}{17}{chapter.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}城市形态与随机几何模型}{18}{section.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}城市交通系统的性质}{20}{section.3.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}关于路网演化的新问题}{23}{section.3.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}跨尺度模型、生长模型的记忆效应}{24}{section.3.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}开放城市系统}{27}{chapter.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}空间多主体行为的分异性与共现性}{28}{section.4.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}城市要素交互的复杂性}{30}{section.4.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}城市生态系统的稳定性条件：层级结构与共存关系}{31}{section.4.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}一个例子：空间公地悲剧}{33}{section.4.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}总结与展望}{37}{chapter.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}更新记录}{39}{appendix.A}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}1.3 版以后的更新记录}{39}{section.A.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}1.3 及其以前版本的更新记录}{47}{section.A.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{致谢}{51}{appendix*.15}% 
