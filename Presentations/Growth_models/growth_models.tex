@@ -8,7 +8,7 @@
 
 \title[Growth Models]{The Growth Models for Science of Cities}
 % \subtitle[Short subtitle]{I am not using any subtitles}
-\author[G. Xiu]{Gezhi Xiu} %  
+\author[G. Xiu]{Gezhi Xiu} %
 \institute[IRSGIS PKU]{Complexity Research Group,\\Peking University}
 \date[\today]{\today}
 
@@ -16,7 +16,7 @@
 
 
 \maketitle
-\begin{frame} \frametitle{Contents}
+\begin{frame}{Contents}
 \tableofcontents
 \end{frame}
 \section{Overview}
@@ -56,7 +56,7 @@
     and Function (Academic, San Diego/London, 1994).
     \item Cellular automata have been used to model spatial structure of urban land use over time: Environ. Plan. A 25, 1175 (1993).
     \item The correlated percolation model
-    
+
   \end{itemize}
 \end{frame}
 
@@ -72,14 +72,14 @@
     \item the number of employees in firms
     \item the distribution of family names
     \item the distribution of city sizes
-    
+
   \end{itemize}
 
   \begin{align}
     P(n)&\sim n^{-1-\gamma}\\
     \gamma&\simeq 1
   \end{align}
-  
+
 \end{frame}
 
 \begin{frame}{Models that lead to Zipf's law}
@@ -95,7 +95,7 @@ Some up-to-date models are really fascinating.
       \item microscopic models at the scale of the individuals (e.g., dwellers)
     \end{itemize}
   \end{itemize}
-  
+
 \end{frame}
 
 \begin{frame}{Mesoscopic Models}
@@ -107,7 +107,7 @@ Some up-to-date models are really fascinating.
     \item the interplay between intermittency and diffusion, Phys. Rev. E 58, 295 (1998).
   \end{itemize}
   \item however they are coarse-grained descriptions of population dynamics and lack an explicit link to the underlying microscopic processes
-\end{itemize}  
+\end{itemize}
 \end{frame}
 
 \begin{frame}{Microscopic Models}
@@ -115,7 +115,7 @@ Some up-to-date models are really fascinating.
     \item Stochastic processes describing the events experienced by an individual, namely births, deaths, and migrations, that ultimately determine the change in the size of a population.
     \begin{itemize}
       \item Yule's and Simon's models: rich-get-richer, Phil. Trans. R. Soc. Lond. B 213, 21 (1925), Biometrika 42, 425 (1955).
-      \item Cluster growth and aggregation, Phys. Rev. E 58, 7054 (1998). 
+      \item Cluster growth and aggregation, Phys. Rev. E 58, 7054 (1998).
       \item Reaction diffusion models: explore the role of intermittency in creating spatial inhomogeneities in agreement with Zipf’s law, Phys. Rev. Lett. 79, 523
       \item Preferential migration to large aggregates, Phys. Rev. Lett. 88, 068301 (2002).
       \item Spatial explicit preferential attachment: the probability that a city grows is essentially assumed to be proportional to the size of the city.
@@ -184,7 +184,7 @@ Some up-to-date models are really fascinating.
     \begin{itemize}
       \item Gradient descent to the sum of two-dimensional normal distributions for a optimal locating problem lead to some scaling behavior.
     \end{itemize}
-    \item Interacting cities lead to Zipf's law and fractality of urban boundary. 
+    \item Interacting cities lead to Zipf's law and fractality of urban boundary.
     \item Asymptotic behaviors (standard cause of scaling) is far from reality.
   \end{itemize}
 \end{frame}
@@ -192,12 +192,12 @@ Some up-to-date models are really fascinating.
 \begin{frame}{Rules}
   The background is on a $L\times L$ grid space. The growing mechanism states as follows:
   \begin{enumerate}
-    \item Growth rate per capita $\beta_2$, and the growth rate for \# of cities $\beta_1$. 
+    \item Growth rate per capita $\beta_2$, and the growth rate for \# of cities $\beta_1$.
     \begin{itemize}
       \item ignoring the correspondence to real-life time scale, the actual effective parameter the relative $\beta:=\beta_2/\beta_1$.
     \end{itemize}
-    \item The distance a ball lands a meta-population nearby as a constant, $r$, towards a random direction $\theta$. 
-    \item The \emph{productive} balls are limited, with no more than $N^*$. 
+    \item The distance a ball lands a meta-population nearby as a constant, $r$, towards a random direction $\theta$.
+    \item The \emph{productive} balls are limited, with no more than $N^*$.
   \end{enumerate}
   \vspace{0.5cm}
   In all, this model relies on three parameters, the relative speed for city generation $\beta$, the diffusion rate $r$, and the size of the memory kernel $N^*$.
@@ -216,7 +216,7 @@ Some up-to-date models are really fascinating.
   \begin{itemize}
     \item The settings provide a border line between free growth (Scaling laws) and constrained growth (vicissitude phenomena).
   \end{itemize}
-  
+
 \end{frame}
 
 \subsection{Results}
