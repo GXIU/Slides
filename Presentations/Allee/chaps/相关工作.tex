@@ -1,0 +1,98 @@
+%------------------------------------------------
+\subsection{研究现状}
+
+\begin{frame}{Allee 效应的形成原因}
+    \begin{itemize}
+        \item cubic model: 来自 Volterra 的工作，三次多项式作为 $f$ 的形式。它的原因是：两种性别之间的产生交互的频率正比于 $\rho^2$. 形式为：\[frac{d\rho(t)}{dt} = -a_1\rho + +(a_2-a_3\rho)\rho^2 = -a_1\rho + a_2\rho^2 - a_3\rho^3.\]
+        \item 少伴侣的逻辑斯蒂找到伴侣的概率\[\mathcal{P} = \frac{\rho}{\rho +\theta}.\]其中$\theta$是人口中以$1/2$概率找到伴侣的人口数。显然这是一个可以找得到Allee效应的方式。
+        \item \dots
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{研究现状：与扩散和流行病学的关系}
+扩散过程
+    \begin{itemize}
+        \item 多种基因型的共存
+        \item 扩张的节律
+        \item ……
+    \end{itemize}
+增加对流行病学的理解
+\begin{itemize}
+    \item 最小人口单元问题
+    \item 改变局部密度对流行病的影响
+\end{itemize}
+\end{frame}
+
+\begin{frame}{流行病的时空传播规律}
+    时空传播规律与医疗系统设计和对新疫情出现时的理解息息相关。流行病的具体传播规律，不光是参数的设定，更是大类模型的选择。要关注非线性、时空异质性、非马氏性等重要因素。
+    \begin{itemize}
+        \item Travelling waves and spatial hierarchies in measles epidemics, Bryan Grenfell et. al., Nature 2001
+        \item Power laws governing epidemics in isolated populations, C. J. Rhodes and R. M. Anderson
+        \begin{itemize}
+            \item 与稀树草原-森林演化的林火模型之间的关系
+        \end{itemize}
+        \item Synchrony, Waves, and Spatial Hierarchies in the Spread of Influenza, Science 2006
+        \begin{itemize}
+            \item 小波相位分析，可以实现动态非平稳性的探测
+        \end{itemize}
+        \item From individuals to epidemics
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{流行病的时空传播规律}
+    Travelling waves and spatial hierarchies in measles epidemics, Bryan Grenfell et. al., Nature 2001
+    \begin{itemize}
+        \item 考虑两个相关的城镇，都有着双年的麻疹周期。进一步假设一个城市够大，超过CCS（大约是300,000），另一个城市规模比CCS小。我们有：
+        \begin{itemize}
+            \item 在一次大型流行病之后，S的密度构成了一个确定性的阈值，在阈值之上的话，另一场大流行就会到来。
+            \item 在大城镇中，麻疹依然会地区性地不时出现，所以只要有效$R_0$在某一瞬间超过$1$时，疫情就会马上爆发。这个阈值与适龄儿童的积累有关系，并且用季节性传染率来修正。
+            \item 小城市：在epidemic后$I$在局部消失，所以，另一个大流行只会在接收到infective spark的时候出现，通常来自于更大的城镇。
+        \end{itemize}
+        \end{itemize}
+\end{frame}
+
+\begin{frame}{模型}
+    \begin{itemize}
+        \item 作者给出了下面三个假设：
+        \begin{itemize}
+            \item 大小城镇的空间镶嵌（spatial mosaic）对疾病的时滞有影响，如果有一组小城镇在大城市周围，那就会生成层次性的流行病行波。
+            \item 作为推论，大城市的组合（都在CCS之上），就会生成高度同步的流行病。因为非线性相会锁住季节性增强的震荡子。
+            \item 最后，弱耦合的/距离较远的中心应该有更强的倾向来进入相反的双年吸引子。
+        \end{itemize}
+        % \item 对偶映射格子，在时刻$n+1$, 流行病的强度$\lambda_{n+1}$又下式给定
+        % $$
+        % \lambda_{n+1} = \beta_n S_n (I_n + \theta_n)^\alpha,
+        % $$
+        % 其中，$\beta_n$是季节传染率，$\alpha$是混合率，$\theta_n$是（随机）接触率，假设是泊松分布$\text{Poi}(m\bar{I}_n).$的，$m$是空间耦合率，$\bar{I_n}$是上一个时刻邻居们染病的数量。这样的话，疾病生灭过程就由下面的负二项分布刻画：
+        % $$
+        % I_{n+1} \sim NegBin(\lambda_{n+1},I_n).
+        % $$
+        % 健康人的平衡方程就是$S_{n+1} = S_n +B-I_{n+1}$.             
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{生物入侵}
+    \begin{itemize}
+        \item Johnson, D., Liebhold, A., Tobin, P. et al. Allee effects and pulsed invasion by the gypsy moth. Nature 444, 361–363 (2006)
+        \begin{itemize}
+            \item periodic pulsed invasions
+            \item how an interaction between strong Allee effects (negative population growth at low densities) and stratified diffusion (most individuals disperse locally, but a few seed new colonies by long-range movement) can explain the invasion pulses
+            \item Adult female gypsy moths are flightless, and ballooning of 1st instars usually occurs only over short distances. This leads to stratified diffusion. 
+            \item Strong Allee effects can influence species ranges by prohibiting range expansion, termed `invasion pinning'.
+        \end{itemize}
+        \item Impacts of preference and geography on epidemic spreading, Xin-Jian Xu, et. al. Phys. Rev. E 76, 056109 2007
+        \item Epidemic thresholds in dynamic contact networks, J. R. Soc. Interface (2009) 6, 233–241, Erik Volz, and Lauren Ancel Meyers
+    \end{itemize}
+\end{frame}
+%------------------------------------------------
+\subsection{问题归纳}
+
+\begin{frame}{问题归纳}
+    \begin{enumerate}
+        \item Allee Threshold 对于城市的意义：
+        \begin{itemize}
+            \item 临界密切接触人口单元
+        \end{itemize}
+        \item 移动性限制与疾病最优阈值
+    \end{enumerate}
+\end{frame}

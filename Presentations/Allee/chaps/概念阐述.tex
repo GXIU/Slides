@@ -1,0 +1,67 @@
+\begin{frame}{Intuitions}
+    不同物种/基因型的人口在空间上扩张（Range Expansion）是人口动力学（Population dynamics）的重要研究对象。
+    
+    \vspace{0.3cm}
+    
+    城市中的扩张现象也有很多类似的现象，比如城市蔓延（urban sprawl）、去中心化（decentralization）、传播过程等。
+    
+    \vspace{0.3cm}
+    
+    在城市内部尺度的疾病传播过程中，传统的同速传播模型对此类问题刻画能力有限，我们需要在关键尺度、
+\end{frame}
+\subsection{Allee效应}
+\begin{frame}{Allee效应：生态学背景}
+    \begin{itemize}
+    \item 自然对生物物种进行选择的时候，会考虑一个Tradeoff：探索更多的区域（Despersal）还是生更多的孩子（grow cooperatively）
+    \item 初始扩张期间，快速生长的细胞有选择性优势；
+    \item 渐近到后期，二者平衡才是最成功的。
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Allee效应：生态学背景}
+    \begin{itemize}
+        \item 数学表达：基本的，某个位置的人口数变化可以用一个偏微分方程表达\begin{align}
+            \frac{\partial \rho}{\partial t}=D \frac{\partial^{2} \rho}{\partial x^{2}}+ \rho g(\rho), 
+        \end{align}
+        \begin{itemize}
+            \item 等号左边：某处的人口密度随时间的变化；
+            \item 等号右边第一项：扩散速度
+            \item 等号右边第二项：生长函数
+        \end{itemize}
+        \pause
+        \item 常用的生长函数假设：\begin{align}
+            g(\rho)=r(K-\rho)\left(\rho-\rho^{*}\right) / K^{2}
+        \end{align}
+        \begin{itemize}
+            \item $r$ 决定时间标度，$K$ 是环境容纳量，\(\rho^*\)是合作程度
+            \begin{itemize}
+            \item（$\rho^*$被称为Allee threshold）。
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Allee效应：生态学背景}
+    $\rho^*$的讨论：
+    \begin{itemize}
+        \item $\rho^*< - K$: 非合作增长，因为$g(\rho)$单调递减
+        \item $\rho^*\uparrow$：合作程度增加，如果有$\rho^*>0$, 则会出现一个\textbf{合作增长效应}。
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{现有研究及广泛意义}
+    \begin{itemize}
+        \item \textbf{数学模型}
+        \begin{itemize}
+            \item 基于SEIR等模型的元人口/网络模型研究
+        \end{itemize}
+        \vspace{0.5cm}
+        \item \textbf{城市动态演化}\begin{itemize}
+            \item 长时间尺度上流行病的时空动态与城市模式的关系
+        \end{itemize}
+        \vspace{0.5cm}
+        \item \textbf{效率与韧性，城市的鸡尾酒瓶}\begin{itemize}
+            \item 控制论、复杂网络理论给生态系统结构及其鲁棒性的研究提供了强有力的工具
+        \end{itemize}
+    \end{itemize}
+\end{frame}
