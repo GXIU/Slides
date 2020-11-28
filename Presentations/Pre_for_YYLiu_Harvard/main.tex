@@ -1,0 +1,58 @@
+\documentclass{beamer}
+%
+% Choose how your presentation looks.
+%
+% For more themes, color themes and font themes, see:
+% http://deic.uab.es/~iblanes/beamer_gallery/index_by_theme.html
+%
+\mode<presentation>
+{
+  \usetheme{Goettingen}      % or try Darmstadt, Madrid, Warsaw, ...
+  \usecolortheme{beaver} % or try albatross, beaver, crane, ...
+  \usefonttheme{default}  % or try serif, structurebold, ...
+  \setbeamertemplate{navigation symbols}{}
+  \setbeamertemplate{caption}[numbered]
+} 
+
+\usepackage[english]{babel}
+\usepackage{ulem}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\title[Modeling Cities]{From City Modeling \\ to General Complex Networks\sm}
+\author{Gezhi Xiu}
+\institute{IRSGIS, Peking University}
+\date{\today}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+  \footnote{Presentation for Prof. Yang-Yu Liu's Interview}
+\end{frame}
+
+\begin{frame}{Outline}
+ \tableofcontents
+\end{frame}
+
+\section{About me}
+% 自我介绍，以及研究兴趣和背景
+\input{aboutme}
+
+\section{Research works}
+% 我的代表性科研工作
+\input{reseachwork}
+
+\section{Research plans}
+% 未来工作计划
+\input{researchplan}
+
+
+% 感谢
+\input{thanks}
+\bibliographystyle{unsrt}
+\bibliography{refs}
+
+\end{document}
